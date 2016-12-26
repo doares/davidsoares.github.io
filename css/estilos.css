@@ -1,0 +1,42 @@
+.c--anim-btn span {
+     color: white;
+     text-decoration: none;
+     text-align: center;
+     display: inline;
+     vertical-align: middle;
+}
+.c--anim-btn, .s-anim-btn {
+     transition: 0.3s;     
+}
+.c--anim-btn {
+     height: 50px;
+     font-size: 2em;
+     overflow: hidden;
+     width: 230px;
+     word-spacing: -5px;
+}
+.c-anim-btn{
+     margin-left: -1.4em;
+}
+.s-anim-btn{
+     letter-spacing: -6px;
+     opacity: 0;
+}
+.c--anim-btn:hover .c-anim-btn{
+     margin-left: 0em;
+}
+.c--anim-btn:hover .s-anim-btn{
+     opacity: 1;
+     letter-spacing: 0px;
+}
+
+.mytxtcolor li a {
+     color: black;
+     font-weight: 800;
+     
+}
+
+#work {
+     height: 800px;
+     
+}
