@@ -8,6 +8,13 @@
 .c--anim-btn, .s-anim-btn {
      transition: 0.3s;     
 }
+
+
+
+a {
+text-decoration:none;
+}
+
 .c--anim-btn {
      height: 50px;
      font-size: 2em;

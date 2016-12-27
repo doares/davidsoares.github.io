@@ -20,8 +20,8 @@
  a:active,
  a:focus,
  a:hover {
-      color: #18BC9C;
-      outline: 0
+      text-decoration: none;
+      outline: none;
  }
  
  h1,
