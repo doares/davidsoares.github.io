@@ -131,7 +131,9 @@ ul#countdown li p.timeRefSeconds {
 }
 /*---start-content-----*/
 .content{
+     height: 400px;
 	text-align:center;
+    
 	margin-top: 11em;
 }
 .content h1{
