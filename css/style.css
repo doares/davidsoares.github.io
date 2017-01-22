@@ -33,7 +33,7 @@ img{max-width:100%;}
 }
 body{
 	 font-family: 'bebasregular';
-	 background:#00B3E7;
+	 background:#F16446;
 }
 /*---start-wrap----*/
 .wrap{
@@ -82,18 +82,19 @@ ul#countdown li p.timeRefSeconds {
 	191919
 }
 .frist{
-	background:#A7D802;
+	background:black;
 }
 .second{
-	background:#E9A300;
+	background:black;
 }
 .three{
-	background:#F4C400;
+	background:black;
 }
 .four{
-	background:#A12BB8;
+	background:black;
 }
 /*---end-timer-----*/
+
 /*---start-notified----*/
 
 .notified{
