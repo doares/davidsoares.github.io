@@ -2,6 +2,22 @@
     overflow-x: hidden;
  }
 
+.sidebar-brand {
+     margin-top: 20px;
+}
+
+#nome h1 {
+     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 30px;
+     color: white;
+     font-weight: 700;
+     margin-left: 20px;
+     text-align: center;
+     text-indent: 0px;
+     
+     
+}
+
 /*Hide All*/
 /*
     .mbr-gallery-filter-all {
@@ -15,8 +31,16 @@
      top: 10em;
      height: 100%;
      
+     
 }
 
+#gallery1-a li {
+     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 18px;
+     color: #ffffff;
+     font-weight: 600;
+     text-transform: uppercase;
+}
 
 .mbr-gallery-filter li  { 
      display: block !important;
@@ -25,7 +49,7 @@
     
     margin-left: -250px;
    
-    background-color:#444444 !Important;
+    background-color:#F16446 !Important;
 }
 
 
@@ -33,15 +57,16 @@
 @media (min-width:768px) {
    #gallery1-a {
           top: -6.3em;
-          margin-left: 12.5rem;
+          margin-left: 13rem;
      }  
 }
 @media (max-width:767px) {
      .mbr-gallery-filter ul {
      z-index: 1 !important;
-     position: fixed;
-     width: 100%;
-     top: 0em;
+     position:absolute;
+     width: 130%;
+     top: -10em;
+     left: 9.7em;
      height: 100%;
      }
      
@@ -52,12 +77,12 @@
     
     margin-left: -240px;
    
-    background-color:#5c4b4b !Important;
+    background-color: #F16446 !Important;
 }
      
      
    #gallery1-a {
-          top: 9.4em;
+          top: 10em;
           margin-left: 0rem;
      }  
 }
@@ -86,7 +111,7 @@
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background-color: #444444 !Important;
+    background-color: #F16446 !Important;
    
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
